@@ -50,7 +50,7 @@ public class Suggest {
   }
 
   private Suggest() {
-    solr = new HttpSolrServer("http://123.30.53.87:8983/solr");
+    solr = new HttpSolrServer("http://localhost:8983/solr");
     query = new SolrQuery();
   }
 
