@@ -12,7 +12,7 @@ public class Main {
     component.getServers().add(Protocol.HTTP, 8182);
 
     // Attach the sample application.
-    component.getDefaultHost().attach("/querylog", new SuggestApplication());
+    component.getDefaultHost().attach("/querylog", new QueryLogApplication());
 
     // Start the component.
     component.start();
